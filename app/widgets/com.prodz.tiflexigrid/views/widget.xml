@@ -1,0 +1,9 @@
+<Alloy>
+	<View id="fgMain">
+		<View id="fgWrapper">
+			<!--I have replaced ScrollView with tableview-->
+			<TableView id="fgTableView">
+			</TableView>
+		</View>	
+	</View>
+</Alloy>

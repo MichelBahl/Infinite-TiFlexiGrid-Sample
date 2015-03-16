@@ -1,0 +1,14 @@
+{
+	"global": {}, 
+	"env:development": {}, 
+	"env:test": {}, 
+	"env:production": {}, 
+	"os:android": {},
+	"os:blackberry": {},
+	"os:ios": {},
+	"os:mobileweb": {},
+	"dependencies": {
+	    "com.prodz.tiflexigrid": "1.2",
+    	"nl.fokkezb.infiniteScroll": "1.4.4"
+	}
+}

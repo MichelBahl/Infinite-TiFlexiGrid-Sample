@@ -1,0 +1,15 @@
+<Alloy>
+	<TabGroup>
+		<Tab title="Infinite" icon="KS_nav_ui.png">
+			<Window title="Tab 1" onOpen="doOpenWindow">
+				<Require type="widget" src="com.prodz.tiflexigrid" id="fg"/>
+				<Widget id="infiniteScroll" src="nl.fokkezb.infiniteScroll" onEnd="dynamicLoader"/>
+			</Window>
+		</Tab>
+		<Tab title="Tab 2" icon="KS_nav_views.png">
+			<Window title="Tab 2">
+				<Label>I am Window 2</Label>
+			</Window>
+		</Tab>
+	</TabGroup>
+</Alloy>
